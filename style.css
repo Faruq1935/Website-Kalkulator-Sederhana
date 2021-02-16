@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', Sans-Serif;
+}
+@media only screen and (min-device-width: 400px) {
+ body {
+   display: flex;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50%;
+   background-image: url(img/bg.jpg);
+   background-repeat: no-repeat;
+    }
+}
+ .calculator {
+   position: relative;
+   display: grid;
+ }
+.calculator .value {
+  grid-column: span 4;
+  text-align: right;
+  border-block-end-width: 1px;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 10px;
+  font-size: 18px;
+  height: 100px;
+  background-color: transparent;
+}
+ .calculator span {
+   height: 60px;
+   width: 60px;
+   background-color: transparent;
+   display: grid;
+   color: dark;
+   border: 1px solid rgba(0,0,0,.1);
+   place-items: center;
+ }
+ .calculator span:active {
+   color: black;
+   background: #FF8210;
+ }
+ .calculator .clr {
+   grid-column: span 2;
+   width: 120px;
+   color: #FF8210;
+ }
+  .calculator .bagi {
+   color: #FF8210;
+}
+  .calculator .kali {
+   color: #FF8210;
+}
+  .calculator .kurang {
+   color: #FF8210;
+}
+  .calculator .plus {
+   grid-row: span 2;
+   color: #FF8210;
+ }
+   .calculator .equal {
+   grid-row: span 2;
+   height: 120px;
+   margin-top: -60px;
+   color: #FF8210;
+   background-color: transparent;
+ }
+
+ 
+ 
