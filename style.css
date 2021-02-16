@@ -12,7 +12,7 @@
    align-items: center;
    margin-top: 50%;
    background-image: url(img/bg.jpg);
-}
+    }
  .calculator {
    position: relative;
    display: grid;
@@ -65,6 +65,3 @@
    color: #FF8210;
    background-color: transparent;
  }
-
- 
- 
