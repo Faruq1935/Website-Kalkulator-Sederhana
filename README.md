@@ -1,4 +1,3 @@
-# Kalkulator-Elaina
-Kalkulator ini dibuat dengan html, css, vanilla javascript 
+# Website Kalkulator Sederhana
 
 Web kalkulator ini dibuat dengan html, CSS, vanilla JavaScript
