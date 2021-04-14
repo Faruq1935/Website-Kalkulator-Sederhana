@@ -21,7 +21,7 @@
   rgba(158,158,167,0.8) 35%,
   rgba(164,179,182,0.8) 100%
 ),
-  url(img/6.png);
+  url(img/bg.jpg);
   background-size: cover;
   z-index: -1;
 }
