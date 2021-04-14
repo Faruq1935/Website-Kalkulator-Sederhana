@@ -6,13 +6,31 @@
   box-sizing: border-box;
   font-family: 'Bebas Neue', Sans-Serif;
 }
+ body::before
+{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+  linear-gradient(
+  90deg, 
+  rgba(178,178,182,0.8) 0%, 
+  rgba(158,158,167,0.8) 35%,
+  rgba(164,179,182,0.8) 100%
+),
+  url(img/6.png);
+  background-size: cover;
+  z-index: -1;
+}
  body {
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 50%;
-   background-image: url(img/bg.jpg);
-    }
+   margin-top: 50%;   
+}
  .calculator {
    position: relative;
    display: grid;
